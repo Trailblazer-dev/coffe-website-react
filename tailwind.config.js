@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -5,7 +6,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primaryColor:"#FFFFFF",
+        aboutbg:"#DBBCA1",
+        secondaryColor:"#220404",
+        sponsorbg:"#655546",
+        contactbg:"#291600",
+        navbarbg:"#6F4436",
+        logo:"url('/src/assets/logo.png')"
+      },
+      backgroundImage:{
+        herobg:"url('/src/assets/hero.png')"
+      }
+    },
   },
   plugins: [],
 }
