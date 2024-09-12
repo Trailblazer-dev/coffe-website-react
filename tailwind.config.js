@@ -17,7 +17,7 @@ export default {
         logo:"url('/src/assets/logo.png')"
       },
       backgroundImage:{
-        herobg:"url('/src/assets/hero.png')"
+        herobg:"url('./src/assets/hero.png')"
       }
     },
   },
