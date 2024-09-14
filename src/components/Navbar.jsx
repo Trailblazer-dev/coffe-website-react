@@ -25,13 +25,13 @@ const Navbar = () => {
           <div
             className={`my-10 absolute top-4 bg-navbarbg w-full  pb-6 pt-4 ${
               isNavbarVisible ? "block" : "hidden"
-            } sm:block sm:relative sm:w-fit   sm:top-0 sm:my-0 sm:pt-0 sm:pb-0 `}
+            } sm:block sm:relative sm:w-fit sm:rounded-md   sm:top-0 sm:my-0 sm:pt-0 sm:pb-0 `}
           >
-            <ul className="flex flex-col justify-center items-center gap-4 sm:flex-row sm:gap-0 sm:bg-navbarbg  sm:rounded-md sm:w-fit sm:px-0 sm:space-x-4">
+            <ul className="flex flex-col justify-center items-center gap-4 sm:flex-row sm:gap-0 sm:bg-navbarbg sm:rounded-md sm:w-fit sm:px-0 sm:space-x-4">
               {Links.map((link, index) => (
                 <li
                   key={index}
-                  className="text-white font-bold hover:bg-primaryColor hover:text-[#6F4436] py-2 rounded-md md:px-4"
+                  className="text-white font-bold hover:bg-primaryColor hover:text-[#6F4436] py-2 rounded-md sm:px-1 md:px-4"
                 >
                   <a href={"#${link.href}"}>{link.title}</a>
                 </li>

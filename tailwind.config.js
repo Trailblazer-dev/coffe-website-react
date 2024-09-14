@@ -18,6 +18,11 @@ export default {
       },
       backgroundImage:{
         herobg:"url('./src/assets/hero.png')"
+      },
+      fontFamily:{
+        pomFam:[ "Pompiere", "sans-serif"],
+        galFam:["Galada"," cursive"],
+        PopFam:["Poppins", "sans-serif"]
       }
     },
   },
