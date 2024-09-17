@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Sponsor from "./components/Sponsor";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <About/>
       <Sponsor/>
+      <Contact/>
     </div>
   )
 }
