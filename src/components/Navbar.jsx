@@ -33,7 +33,7 @@ const Navbar = () => {
                   key={index}
                   className="text-white font-bold hover:bg-primaryColor hover:text-[#6F4436] py-2 rounded-md sm:px-1 md:px-4"
                 >
-                  <a href={"#${link.href}"}>{link.title}</a>
+                  <a href={`#${link.href}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
