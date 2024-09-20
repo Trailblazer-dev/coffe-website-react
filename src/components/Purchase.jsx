@@ -9,7 +9,7 @@ const Purchase = () => {
     <p className="z-10 relative text-primaryColor text-center pb-10">
       {purchase.subtitle}
     </p>
-    <div className="z-10 grid relative gap-4 justify-items-center place-items-center py-10 sm:grid-cols-2 md:grid-cols-3">
+    <div className="z-10 grid relative gap-4 justify-items-center place-items-center py-10 lg:py-14 sm:grid-cols-2 md:grid-cols-3">
       {purchaseCards.map((card,index)=>(
         <div className="bg-aboutbg w-60 h-48 px-8 lg:w-72 lg:h-44 py-4 flex flex-col justify-center items-center rounded-md shadow-stone-800 shadow-xl hover:scale-105" key={index}>
           <div className="text-center mb-2">

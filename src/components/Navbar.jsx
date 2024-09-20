@@ -1,16 +1,35 @@
 import { MenuIcon, XIcon } from "lucide-react";
 import log from "../assets/logo.png";
 import { Links } from "../constants";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isNavbarVisible, setNavbarVisible] = useState(false);
   const toggleNavbar = () => {
     setNavbarVisible(!isNavbarVisible);
   };
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Add shadow when the scroll position is greater than 50px
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
   return (
     <>
-      <div className="mx-auto justify-center flex w-full  bg-[#2F1F14]   sm:backdrop-blur-lg  fixed z-50  top-0 h-14 sm:h-20">
+      <div className={`mx-auto justify-center flex w-full  bg-[#2F1F14]   sm:backdrop-blur-lg  fixed z-50  top-0 h-14 sm:h-20 ${isScrolled ?"sm:shadow-md sm:shadow-aboutbg":""} `}>
         <button
           className="text-white absolute  top-6 right-2 sm:hidden"
           onClick={toggleNavbar}
