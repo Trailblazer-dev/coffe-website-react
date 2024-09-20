@@ -4,7 +4,7 @@ import { about } from "../constants"
 const About = () => {
   return (
     <>
-    <div className="bg-aboutbg mt-10 py-10 flex flex-col justify-center items-center md:flex-row gap-4 sm:gap-8 md:gap-12" id="aboutus">
+    <div className="bg-aboutbg mt-10 py-10 flex flex-col justify-center items-center md:flex-row gap-4 sm:gap-8 md:gap-12 sm:py-12" id="aboutus">
         <div className="flex items-center justify-center px-4 py-2 sm:pt-8 md:px-2 md:w-1/2 lg:mr-6">
             <img src={about.image} alt="image" />
         </div>

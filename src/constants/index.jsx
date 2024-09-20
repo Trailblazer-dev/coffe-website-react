@@ -47,7 +47,7 @@ export const features = {
 export const featuresCard=[
   {
     image:feature1,
-    title:"Experience the Best of Coffee Borcelle in Every Cup",
+    title:"Premium Beans",
     description:"Sourced from the finest coffee regions worldwide, our beans are carefully curated for a perfect taste."
   },
   {

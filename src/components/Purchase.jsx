@@ -1,5 +1,5 @@
 const Purchase = () => {
-  return <section className="py-12 bg-white" id="purchase">
+  return <section className="" id="purchase">
     
   </section>;
 };
