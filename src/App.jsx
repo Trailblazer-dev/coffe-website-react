@@ -5,6 +5,7 @@ import Sponsor from "./components/Sponsor";
 import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Purchase from "./components/Purchase";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Purchase/>
       <Sponsor/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

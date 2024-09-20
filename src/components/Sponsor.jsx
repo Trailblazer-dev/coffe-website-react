@@ -17,7 +17,7 @@ const Sponsor = () => {
       <div className="gap-8 sm:gap-10 flex flex-col justify-center items-center lg:flex-row lg:px-4 ">
         {
           sponsorCards.map((cards,index)=>(
-            <div key={index} className="flex flex-col justify-center items-center gap-2 py-6 px-4 bg-aboutbg w-[80%] h-auto lg:h-52 rounded-lg shadow-stone-600 shadow-xl text-center">
+            <div key={index} className="flex flex-col justify-center items-center gap-2 py-6 px-4 bg-aboutbg w-[80%] h-auto lg:h-52 rounded-lg shadow-stone-600 shadow-xl text-center hover:scale-105">
               <p>{cards.body}</p>
               <p className="text-[#0A424F] font-semibold">{cards.footer}</p>
             </div>
