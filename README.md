@@ -24,7 +24,7 @@ This project is a **Coffee Subscription Website** built using **React** and **Ta
 ## 🚀 Deployment
 
 The project is hosted on **Vercel** and can be accessed at:  
-[Responsive Landing Page - Coffee Website](https://responsive-landig-page-react-tailwind-css.vercel.app/)
+[Responsive Landing Page - Coffee Website](https://coffe-website-react-kg8ao9yxx-trailblazer-devs-projects.vercel.app/)
 
 ## 🖌️ How to Set Up Locally
 
